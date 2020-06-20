@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MemoryGame</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/memorygame.css">
+  </head>
+  <body>
+    <div class="field">
+      <h4 class="times" id="times">challenge:0</h4>
+      <button class="retry-btn" id="retry">Retry</button>
+    </div>
+    <p id="completeMessage"></p>
+    <audio id="turnSound" preload="auto">
+      <source src="../audio/カードめくり音.mp3" type="audio/mp3">
+      <source src="../audio/カードめくり音.wav" type="audio/wav">
+    <audio id="correctSound" preload="auto">
+      <source src="../audio/正解音.mp3" type="audio/mp3">
+      <source src="../audio/正解音.wav" type="audio/wav">
+    </audio>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/memorygame.js"></script>
+  </body>
+</html>
